@@ -6,8 +6,8 @@ html {
     font-size: 32px;
   }
   .timeline-base {
-    stroke: #40fa98;
-    stroke-width: 3;
+    stroke: #858585;
+    stroke-width: 1.5;
   }
   .circle-category {
     transition: fill-opacity 0.2s, r 0.5s;
@@ -27,7 +27,18 @@ html {
     color: #78e08f;
     fill: #78e08f;
   }
-
+  .circle-mn,
+  .circle-mn ~ .text-position,
+  .details-mn .text-position {
+    color: #f63bdd;
+    fill: #f63bdd;
+  }
+  .circle-ky,
+  .circle-ky ~ .text-position,
+  .details-ky .text-position {
+    color: #78aee0;
+    fill: #78aee0;
+  }
 
 
   .circle-hovered {

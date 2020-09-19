@@ -98,6 +98,52 @@
         "startDate": "2020-07-30",
         "date_text": "July 30th",
         "id": "or-portland-234"
+    },
+    {
+        "links": [
+            {
+                "url": "https://www.tiktok.com/@montygeer/video/6840314007954509062",
+                "text": ""
+            }
+        ],
+        "state": "MN",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Minnesota.md",
+        "placeName": "Minneapolis",
+        "description": "Footage shows a woman sitting on the ground, after allegedly having been maced. She is then kicked over by an officer.",
+        "tags": [
+            "kick",
+            "protester"
+        ],
+        "name": "Woman kicked in head",
+        "startDate": "",
+        "date_text": "Date Unknown",
+        "id": "mn-minneapolis-30"
+    },
+    {
+        "links": [
+            {
+                "url": "https://www.wave3.com/2020/06/12/protester-shot-head-files-lawsuit-against-law-enforcement/",
+                "text": "Wave3 Article and Video"
+            },
+            {
+                "url": "https://www.wdrb.com/news/lawsuit-claims-lmpd-ksp-officers-fired-weapons-at-peaceful-protester/article_c3a4e82c-acdf-11ea-9a51-dfc711c18342.html",
+                "text": "WDRB Article and Video(same)"
+            }
+        ],
+        "state": "KY",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Kentucky.md",
+        "placeName": "Louisville",
+        "description": "Jonah Albert was peacefully protesting at Cedar and South 6th streets around 8:25pm on May 30th. He was a block away from police, with his back to them walking away when they shot him in the back of the head causing him to fall to the ground bleeding. He is suing LMPD for unlawful battery, excessive force, and violation of Civil Rights.",
+        "tags": [
+            "rubber-bullet",
+            "projectile",
+            "shoot",
+            "protester"
+        ],
+        "name": "Police shoot man in the head with rubber bullet while he is walking away",
+        "startDate": "2020-05-30",
+        "date_text": "May 30th",
+        "id": "ky-louisville-8"
     }
 ]
   
