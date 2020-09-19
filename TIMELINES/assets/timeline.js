@@ -18,6 +18,7 @@ function drawChart(selector, file_path, chart_id) {
     .attr("id", chart_id)
     .attr("width", "100%")
     .attr("height", 500);
+
   d3.json(file_path).then(function (data) {
     svg
       .append("line")
@@ -26,6 +27,7 @@ function drawChart(selector, file_path, chart_id) {
       .attr("y1", 100)
       .attr("x2", "90%")
       .attr("y2", 100);
+    
     // Get the value of the svg to for scaleLinear
     function getLineVal(val) {
       if (val === "max") {
@@ -35,6 +37,7 @@ function drawChart(selector, file_path, chart_id) {
         return 0;
       }
     }
+    
     // Convert to UNIX timestamp
     function convertToTimeStamp(date) {
       let parts = date.match(/(\d{4})-(\d{2})/);
