@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
     "Chart1"
   );
+  drawChart(
+    "#timelineChart2",
+    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
+    "Chart2"
+  );
 });
 
 function drawChart(selector, file_path, chart_id) {
