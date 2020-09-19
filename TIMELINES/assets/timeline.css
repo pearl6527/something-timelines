@@ -6,8 +6,8 @@ h2 {
   font-size: 32px;
 }
 .timeline-base {
-  stroke: #444;
-  stroke-width: 0.2;
+  stroke: #40fa98;
+  stroke-width: 3;
 }
 .circle-category {
   transition: fill-opacity 0.2s, r 0.5s;

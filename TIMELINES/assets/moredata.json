@@ -65,6 +65,39 @@
         "startDate": "2020-06-02",
         "date_text": "June 2nd",
         "id": "nc-asheville-1"
+    },
+    {
+        "links": [
+            {
+                "url": "https://twitter.com/MaranieRae/status/1288941481995071488",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MaranieRae/status/1289371801579950080",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MathieuLRolland/status/1289109167219777536",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MaranieRae/status/1288980520202678277",
+                "text": ""
+            }
+        ],
+        "state": "Oregon",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Oregon.md",
+        "city": "Portland",
+        "description": "Images show a journalist's wound after she was shot in the knee; her knee is considerably swollen and has a significant bruise arond where the bullet struck.",
+        "tags": [
+            "journalist",
+            "shoot",
+            "projectile"
+        ],
+        "name": "Reporter shot in knee",
+        "date": "2020-07-30",
+        "date_text": "July 30th",
+        "id": "or-portland-234"
     }
 ]
   

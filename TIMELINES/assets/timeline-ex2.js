@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     drawChart(
       "#timelineChart",
-      "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/eventsdata.json",
+      "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
       "Chart"
     );
     // drawChart(
@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
       
       // Convert to UNIX timestamp
       function convertToTimeStamp(date) {
-        let parts = date.match(/(\d{4})-(\d{2})/);
-        return new Date(parts[1] + "-" + parts[2] + "-01").getTime();
+        let parts = date.match(/(\d{4})-(\d{2})-(\d{2})/);
+        return new Date(parts[1] + "-" + parts[2] + "-" + parts[3]).getTime();
       }
   
       let scaleLine = d3
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
           return scaleLine(convertToTimeStamp(data.startDate));
         })
         .attr("cy", 100)
-        .attr("r", 100)
+        .attr("r", 12)
         .attr("fill-opacity", 0.5)
         .attr("class", function (data) {
           return "circle-category circle-" + data.state.toLowerCase();
@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         // When hover a circle
         .on("mouseover", function (d, i) {
-          d3.select(this).attr("r", 120);
+          d3.select(this).attr("r", 20);
           d3.select(this).classed("circle-hovered", true);
           d3.select(this.parentNode).selectAll("text").style("opacity", 1);
           d3.select(this.parentNode)
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         // When un-hover a circle
         .on("mouseout", function (d, i) {
-          d3.select(this).attr("r", 100);
+          d3.select(this).attr("r", 12);
           d3.select(this).classed("circle-hovered", false);
           d3.select(this.parentNode).selectAll("text").style("opacity", 0);
         });
