@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
       let scaleLine = d3
         .scaleLinear()
-        .domain([1285891200000, Date.now()])
-        .range([getLineVal("min") + 20, getLineVal("max") - 100]); // OFFSET = 20
+        .domain([1577854800000, Date.now()])
+        .range([getLineVal("min") + 100, getLineVal("max") - 100]); // OFFSET = 20
   
       let scaleCircle = d3
         .scaleLinear()

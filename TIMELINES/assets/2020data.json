@@ -1,0 +1,149 @@
+[
+    {
+        "links": [
+            {
+                "url": "https://www.wyff4.com/article/tear-gas-rubber-bullets-reported-at-asheville-protest/32725369",
+                "text": ""
+            },
+            {
+                "url": "https://www.citizen-times.com/story/news/local/2020/05/31/bowen-bridge-shut-down-protesters-block-highway/5304001002/",
+                "text": ""
+            }
+        ],
+        "state": "NC",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/North Carolina.md",
+        "placeName": "Asheville",
+        "description": "According to eyewitness accounts and news reports, police kettled a protest on a bridge and fired both tear gas and rubber bullets. Eyewitnesses note children were among the crowd and protesters attempted to shield them from harm.",
+        "tags": [
+            "child",
+            "tear-gas",
+            "rubber-bullet",
+            "shoot",
+            "protester"
+        ],
+        "name": "Police fire tear gas and rubber bullets at protesters",
+        "startDate": "2020-05-31",
+        "date_text": "May 31st",
+        "id": "nc-asheville-2"
+    },
+    {
+        "links": [
+            {
+                "url": "https://twitter.com/AngelaMWilhelm/status/1268056986102444033",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/AngelaMWilhelm/status/1267974081577717762",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/daveth89/status/1267974555332685824",
+                "text": ""
+            },
+            {
+                "url": "https://i.redd.it/wofh339sqr251.png",
+                "text": ""
+            },
+            {
+                "url": "https://www.usatoday.com/story/news/factcheck/2020/06/03/george-floyd-protests-police-destroy-medic-station-asheville/3124847001/",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/greg_doucette/status/1269071491892682752",
+                "text": ""
+            }
+        ],
+        "state": "NC",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/North Carolina.md",
+        "placeName": "Asheville",
+        "description": "Police destroy supplies, including food and water, at a medical station. Medics and EMTs said the station was approved by the city.\n\nAdditional investigation found the station was on private property and conducted with approval from the property owner.",
+        "tags": [
+            "medic",
+            "property-destruction"
+        ],
+        "name": "Police surround approved medical station and destroy supplies",
+        "startDate": "2020-01-09",
+        "date_text": "June 2nd",
+        "id": "nc-asheville-1"
+    },
+    {
+        "links": [
+            {
+                "url": "https://twitter.com/MaranieRae/status/1288941481995071488",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MaranieRae/status/1289371801579950080",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MathieuLRolland/status/1289109167219777536",
+                "text": ""
+            },
+            {
+                "url": "https://twitter.com/MaranieRae/status/1288980520202678277",
+                "text": ""
+            }
+        ],
+        "state": "OR",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Oregon.md",
+        "placeName": "Portland",
+        "description": "Images show a journalist's wound after she was shot in the knee; her knee is considerably swollen and has a significant bruise arond where the bullet struck.",
+        "tags": [
+            "journalist",
+            "shoot",
+            "projectile"
+        ],
+        "name": "Reporter shot in knee",
+        "startDate": "2020-07-30",
+        "date_text": "July 30th",
+        "id": "or-portland-234"
+    },
+    {
+        "links": [
+            {
+                "url": "https://www.tiktok.com/@montygeer/video/6840314007954509062",
+                "text": ""
+            }
+        ],
+        "state": "MN",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Minnesota.md",
+        "placeName": "Minneapolis",
+        "description": "Footage shows a woman sitting on the ground, after allegedly having been maced. She is then kicked over by an officer.",
+        "tags": [
+            "kick",
+            "protester"
+        ],
+        "name": "Woman kicked in head",
+        "startDate": "2020-03-06",
+        "date_text": "Date Unknown",
+        "id": "mn-minneapolis-30"
+    },
+    {
+        "links": [
+            {
+                "url": "https://www.wave3.com/2020/06/12/protester-shot-head-files-lawsuit-against-law-enforcement/",
+                "text": "Wave3 Article and Video"
+            },
+            {
+                "url": "https://www.wdrb.com/news/lawsuit-claims-lmpd-ksp-officers-fired-weapons-at-peaceful-protester/article_c3a4e82c-acdf-11ea-9a51-dfc711c18342.html",
+                "text": "WDRB Article and Video(same)"
+            }
+        ],
+        "state": "KY",
+        "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Kentucky.md",
+        "placeName": "Louisville",
+        "description": "Jonah Albert was peacefully protesting at Cedar and South 6th streets around 8:25pm on May 30th. He was a block away from police, with his back to them walking away when they shot him in the back of the head causing him to fall to the ground bleeding. He is suing LMPD for unlawful battery, excessive force, and violation of Civil Rights.",
+        "tags": [
+            "rubber-bullet",
+            "projectile",
+            "shoot",
+            "protester"
+        ],
+        "name": "Police shoot man in the head with rubber bullet while he is walking away",
+        "startDate": "2020-11-30",
+        "date_text": "May 30th",
+        "id": "ky-louisville-8"
+    }
+]
+  
