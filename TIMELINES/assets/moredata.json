@@ -87,7 +87,7 @@
         ],
         "state": "Oregon",
         "edit_at": "https://github.com/2020PB/police-brutality/blob/main/reports/Oregon.md",
-        "city": "Portland",
+        "placeName": "Portland",
         "description": "Images show a journalist's wound after she was shot in the knee; her knee is considerably swollen and has a significant bruise arond where the bullet struck.",
         "tags": [
             "journalist",
@@ -95,7 +95,7 @@
             "projectile"
         ],
         "name": "Reporter shot in knee",
-        "date": "2020-07-30",
+        "startDate": "2020-07-30",
         "date_text": "July 30th",
         "id": "or-portland-234"
     }
