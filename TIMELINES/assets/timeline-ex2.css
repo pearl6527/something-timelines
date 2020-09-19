@@ -9,10 +9,78 @@ h2 {
   stroke: #858585;
   stroke-width: 1.5;
 }
-.circle-category {
+.circle-state {
   transition: fill-opacity 0.2s, r 0.5s;
   -webkit-transition: fill-opacity 0.2s, r 0.5s;
 }
+
+.circle-hovered {
+  fill-opacity: 0.2;
+}
+.circle-clicked {
+  fill: #fff;
+  transition: fill 1s, r 0.9s;
+  -webkit-transition: fill 1s, r 0.9s;
+}
+.text-date,
+.text-position {
+  transition: opacity 0.7s ease-in-out;
+  -webkit-transition: opacity 0.7s ease-in-out;
+}
+.text-date {
+  fill: #888;
+  font-family: "Thasadith", sans-serif;
+}
+.details .text-date {
+  margin-right: 15px;
+}
+.text-place {
+  font-family: "Thasadith", sans-serif;
+  font-size: 18px;
+  fill: #888;
+  margin-top: 10px;
+}
+.text-place.hovered,
+.text-desc.hovered,
+.text-date-end.hovered {
+  transition: opacity 1.5s;
+}
+.text-place,
+.text-desc,
+.text-date-end {
+  transition: opacity 0.1s;
+}
+.position-title {
+  font-size: 25px;
+}
+.text-position,
+.text-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.text-desc {
+  color: #444;
+  margin-top: 20px;
+}
+.close-icon {
+  color: rgb(92, 92, 92);
+  cursor: pointer;
+  float: right;
+  font-size: 38px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.title {
+  clear: both;
+  display: inline-block;
+}
+.details {
+  transition: opacity 1s ease-in-out;
+}
+
+/* .tline {
+  height: 300px;
+} */
 
 /* categorize by states */
 .circle-al, .circle-al ~ .text-position, .details-al .text-position,
@@ -85,72 +153,4 @@ h2 {
 .circle-wy, .circle-wy ~ .text-position, .details-wy .text-position {
   color: #d9a380;
   fill: #d9a380;
-}
-
-.circle-hovered {
-  fill-opacity: 0.2;
-}
-.circle-clicked {
-  fill: #fff;
-  transition: fill 1s, r 0.9s;
-  -webkit-transition: fill 1s, r 0.9s;
-}
-.text-date,
-.text-position {
-  transition: opacity 0.7s ease-in-out;
-  -webkit-transition: opacity 0.7s ease-in-out;
-}
-.text-date {
-  fill: #888;
-  font-family: "Thasadith", sans-serif;
-}
-.details .text-date {
-  margin-right: 15px;
-}
-.text-place {
-  font-family: "Thasadith", sans-serif;
-  font-size: 18px;
-  fill: #888;
-  margin-top: 10px;
-}
-.text-place.hovered,
-.text-desc.hovered,
-.text-date-end.hovered {
-  transition: opacity 1.5s;
-}
-.text-place,
-.text-desc,
-.text-date-end {
-  transition: opacity 0.1s;
-}
-.position-title {
-  font-size: 25px;
-}
-.text-position,
-.text-desc {
-  font-family: "Roboto", sans-serif;
-  font-weight: lighter;
-}
-.text-desc {
-  color: #444;
-  margin-top: 20px;
-}
-.close-icon {
-  color: #ccc;
-  cursor: pointer;
-  float: right;
-  font-size: 38px;
-  display: inline-block;
-  vertical-align: middle;
-}
-.title {
-  clear: both;
-  display: inline-block;
-}
-.details {
-  transition: opacity 1s ease-in-out;
-}
-
-.tline {
-  height: 300px;
 }

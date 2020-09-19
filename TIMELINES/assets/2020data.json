@@ -24,7 +24,7 @@
         "name": "Police fire tear gas and rubber bullets at protesters",
         "startDate": "2020-05-31",
         "date_text": "May 31st",
-        "id": "nc-asheville-2"
+        "id": 0
     },
     {
         "links": [
@@ -64,7 +64,7 @@
         "name": "Police surround approved medical station and destroy supplies",
         "startDate": "2020-01-09",
         "date_text": "June 2nd",
-        "id": "nc-asheville-1"
+        "id": 1
     },
     {
         "links": [
@@ -97,7 +97,7 @@
         "name": "Reporter shot in knee",
         "startDate": "2020-07-30",
         "date_text": "July 30th",
-        "id": "or-portland-234"
+        "id": 2
     },
     {
         "links": [
@@ -117,7 +117,7 @@
         "name": "Woman kicked in head",
         "startDate": "2020-03-06",
         "date_text": "Date Unknown",
-        "id": "mn-minneapolis-30"
+        "id": 3
     },
     {
         "links": [
@@ -143,7 +143,7 @@
         "name": "Police shoot man in the head with rubber bullet while he is walking away",
         "startDate": "2020-11-30",
         "date_text": "May 30th",
-        "id": "ky-louisville-8"
+        "id": 4
     }
 ]
   
