@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .append("text")
         .text(function (data) {
           // Get only YYYY-MM
-          if (data.startDate.length > 7) {
+          if (data.startDate.length > 12) {
             return data.startDate.slice(0, 7);
           } else {
             return data.startDate;
