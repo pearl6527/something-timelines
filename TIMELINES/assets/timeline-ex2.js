@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     drawChart(
       "#timelineChart",
-      "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/moredata.json",
+      "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/2020data.json",
       "Chart"
     );
     // drawChart(
