@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     drawChart(
       "#timelineChart",
-      "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/2020data.json",
+      "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/data.json",
       "Chart"
     );
-    // drawChart(
-    //   "#timelineChart1",
-    //   "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
-    //   "Chart1"
-    // );
+    drawChart(
+      "#timelineChart1",
+      "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/testfile.json",
+      "Chart1"
+    );
   });
   
   function drawChart(selector, file_path, chart_id) {
@@ -71,7 +71,9 @@ document.addEventListener("DOMContentLoaded", function () {
           return scaleLine(convertToTimeStamp(data.startDate));
         })
         .attr("cy", 100)
-        .attr("r", 12)
+        .attr("r", function (data) {
+          return Math.random()*7 + 5;
+        })
         .attr("fill-opacity", 0.5)
         .attr("class", function (data) {
           return "circle-state circle-" + data.state.toLowerCase();
@@ -122,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         // When un-hover a circle
         .on("mouseout", function (d, i) {
-          d3.select(this).attr("r", 12);
+          d3.select(this).attr("r", Math.random()*7 + 5);
           d3.select(this).classed("circle-hovered", false);
           d3.select(this.parentNode).selectAll("text").style("opacity", 0);
         });
@@ -153,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .text(function (data) {
           // Get only YYYY-MM
           if (data.startDate.length > 12) {
-            return data.startDate.slice(0, 7);
+            return data.startDate.slice(0, 10);
           } else {
             return data.startDate;
           }

@@ -2,16 +2,18 @@ document.addEventListener("DOMContentLoaded", function () {
   drawChart(
     "#timelineChart",
     "https://raw.githubusercontent.com/tonyyao08/HackRice2020/master/data.json",
-    "Chart"
+    "Chart",
+    1, 1589428800000 /* 2020-05-14 */, Date.now()
   );
-  // drawChart(
-  //   "#timelineChart1",
-  //   "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/somedata.json",
-  //   "Chart1"
-  // );
+  drawChart(
+    "#timelineChart1",
+    "https://raw.githubusercontent.com/pearl6527/something-timelines/master/TIMELINES/assets/testfile.json",
+    "Chart1",
+    2, 1589428800000 /* 2020-05-14 */, Date.now()
+  );
 });
 
-function drawChart(selector, file_path, chart_id) {
+function drawChart(selector, file_path, chart_id, line_num, date_start, date_end) {
   const svg = d3
     .select(selector)
     .append("svg")
@@ -46,7 +48,7 @@ function drawChart(selector, file_path, chart_id) {
 
     let scaleLine = d3
       .scaleLinear()
-      .domain([1577854800000, Date.now()])
+      .domain([date_start, date_end])
       .range([getLineVal("min") + 100, getLineVal("max") - 100]); // OFFSET = 20
 
     let scaleCircle = d3
@@ -188,7 +190,7 @@ function drawChart(selector, file_path, chart_id) {
         .attr("id", "details-" + d.id);
       details
         .append("i")
-        .classed("material-icons close-icon", true)
+        .classed("material-icons close-icon close-icon" + line_num, true)
         .text("close");
       details
         .append("div")
@@ -220,7 +222,7 @@ function drawChart(selector, file_path, chart_id) {
     });
 
     // Hide the details div (once opened by clicking on circle)
-    d3.selectAll(".close-icon").on("click", function () {
+    d3.selectAll(".close-icon" + line_num).on("click", function () {
       d3.select(this.parentNode).style("opacity", 0);
       setTimeout(function () {
         svg.attr("height", 500);
